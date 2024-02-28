@@ -1,0 +1,72 @@
+body{
+  background-color: rgb(218, 208, 208);
+}
+.App {
+  background-color:rgb(252, 240, 227);
+  border: 1px solid 30px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 50px;
+  margin: 100px 30%;
+
+}
+.App h2{
+  color: gray;
+}
+.App ul{
+  list-style: "📃";
+  cursor: pointer;
+  font-size: 22px;
+  color: gray;
+  margin: 20px;
+  text-align: left;
+}
+.App input{
+  width: 300px;
+  height: 40px;
+border-radius: 10px;
+margin: 20px;
+ text-align: center;
+}
+ .App button{
+  display: block;
+  margin: auto;
+  background-color: #282c34;
+  border-radius: 8px;
+  color: white;
+  width: 150px;
+  height: 30px;
+  border: 0;
+  font-weight: bold;
+  font-size: large;
+}
+.App ul .li{
+  overflow-wrap: break-word;
+}
+
+.diffstyle{
+  list-style: "✔️";
+  text-decoration: line-through;
+}
+.div1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .App input{
+    width: 150px;
+    height: 30px;
+  margin: 10px;
+   
+  }
+  .App button{
+    width: 80px;
+  }
+  .App{
+    margin: 0;
+    padding: 5px;
+  }
+  
+}
